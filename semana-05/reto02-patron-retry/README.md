@@ -22,5 +22,6 @@ Saturación de la red: Lanzar peticiones de manera descontrolada hacia servidore
 
 Falta de eficiencia operativa: En auditorías a gran escala, es crucial fallar rápido (fail-fast) o establecer un límite estricto de intentos para poder obtener diagnósticos ágiles, liberar recursos del sistema y pasar al siguiente servidor sin comprometer el rendimiento general de la aplicación.
 
-**Autora**
+**Autora:**
+
 sha2dev56
