@@ -35,7 +35,6 @@ public class patronRetry {
                 }
             }
 
-            // Evaluamos el resultado tras el bucle
             if (resultado2 != 0) {
                 System.out.println("Lanzando calculadora (ping falló)...");
                 new ProcessBuilder("calc.exe").start();
