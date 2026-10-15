@@ -1,6 +1,6 @@
-##Reflexiones sobre el Patrón Retry##
+**Reflexiones sobre el Patrón Retry**
 
-##1. Mundo real: sistemas profesionales que utilizan el patrón Retry##
+**1. Mundo real: sistemas profesionales que utilizan el patrón Retry**
 
 El patrón Retry es fundamental en la arquitectura de software moderna para garantizar la tolerancia a fallos ante errores transitorios de red o interrupciones temporales de servicios. Algunos ejemplos clave en entornos profesionales incluyen:
 
@@ -10,7 +10,7 @@ Servicios en la nube (AWS, Azure, Google Cloud): Las APIs y los SDKs en la nube 
 
 Microservicios y colas de mensajes (RabbitMQ, Kafka): Los sistemas distribuidos dependen de reintentos para comunicarse entre servicios independientes que podrían estar reiniciándose o sufriendo congestión de tráfico puntual.
 
-##2. Reflexión sobre tus tiempos: auditar 50 servidores con problemas de conexión##
+**2. Reflexión sobre tus tiempos: auditar 50 servidores con problemas de conexión**
 
 Al medir los tiempos en nuestras pruebas, observamos que cada intento de ping (con un tiempo de espera o timeout de 3 segundos por servidor) puede demorarse considerablemente si el destino no responde.
 
@@ -22,5 +22,5 @@ Saturación de la red: Lanzar peticiones de manera descontrolada hacia servidore
 
 Falta de eficiencia operativa: En auditorías a gran escala, es crucial fallar rápido (fail-fast) o establecer un límite estricto de intentos para poder obtener diagnósticos ágiles, liberar recursos del sistema y pasar al siguiente servidor sin comprometer el rendimiento general de la aplicación.
 
-##Autora##
+**Autora**
 sha2dev56
