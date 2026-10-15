@@ -1,4 +1,9 @@
-**Reflexiones sobre el Patrón Retry**
+**Patrón Retry**
+
+<img width="533" height="592" alt="image" src="https://github.com/user-attachments/assets/91311c8f-74fb-4b97-96e6-243881640a38" />
+
+
+
 
 **1. Mundo real: sistemas profesionales que utilizan el patrón Retry**
 
